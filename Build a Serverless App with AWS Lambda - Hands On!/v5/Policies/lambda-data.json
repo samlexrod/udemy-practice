@@ -10,9 +10,9 @@
         "dynamodb:Query"
       ],
       "Resource": [
-        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Conversations",
-        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Messages",
-        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Conversations/index/Username-ConversationId-index"
+        "arn:aws:dynamodb:us-east-1:133469299809:table/Chat-Conversations",
+        "arn:aws:dynamodb:us-east-1:133469299809:table/Chat-Messages",
+        "arn:aws:dynamodb:us-east-1:133469299809:table/Chat-Conversations/index/Username-ConversationId-index"
       ]
     }
   ]
